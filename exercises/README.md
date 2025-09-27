@@ -17,7 +17,7 @@
 | error_handling         | §9                  | 6
 | generics               | §10                 | 2
 | traits                 | §10.2               | 5
-| tests                  | §11.1               | 9  1   1
+| tests                  | §11.1               | 9    1
 | lifetimes              | §10.3               | 3
 | iterators              | §13.2-4             | 5
 | threads                | §16.1-3             | 3    1
@@ -27,4 +27,4 @@
 | conversions            | n/a                 | 5
  al                                              10
  in                                              2
- primitive_types                                 6
+ quiz                                            3
