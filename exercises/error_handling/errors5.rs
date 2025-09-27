@@ -25,10 +25,10 @@
 
 use std::error;
 use std::fmt;
-use std::num::ParseIntError;
+// use std::num::ParseIntError;  // 可以移除这个未使用的导入
 
-// TODO: update the return type of `main()` to make this compile.
-fn main() -> Result<(), Box<dyn error::Errorq>>{
+// 修复拼写错误：Errorq -> Error
+fn main() -> Result<(), Box<dyn error::Error>> {
     let pretend_user_input = "42";
     let x: i64 = pretend_user_input.parse()?;
     println!("output={:?}", PositiveNonzeroInteger::new(x)?);
