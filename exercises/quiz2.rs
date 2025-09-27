@@ -52,7 +52,7 @@ mod my_module {
 
 #[cfg(test)]
 mod tests {
-    use my_module::transformer;
+    use crate::my_module::transformer;
     use super::Command;
 
     #[test]
